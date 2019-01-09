@@ -1,0 +1,9 @@
+{
+  "name": "drop-babel-typeof",
+  "version": "1.0.0",
+  "description": "remove the annoying _typeof(...) pollution when no symbol is used",
+  "main": "index.js",
+  "keywords": ["babel", "typeof", "symbol"],
+  "author": "Andrea Giammarchi",
+  "license": "ISC"
+}
