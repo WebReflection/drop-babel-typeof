@@ -1,6 +1,6 @@
 {
   "name": "drop-babel-typeof",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove the annoying _typeof(...) pollution when no symbol is used.",
   "bin": "index.js",
   "keywords": [
