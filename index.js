@@ -10,7 +10,7 @@ fs.readFile(file, function (err, data) {
   }
   var content = data.toString('utf8')
     .replace(/function _typeof\([^\1]+?(return\s+_typeof\([^}]+\})/g, '')
-    .replace(/(\s+)_typeof\(/g, '$1typeof(');
+    .replace(/\b_typeof\(/g, 'typeof(');
   fs.writeFile(file, content, function (err) {
     if (err) {
       console.error('unable to write ' + file);
