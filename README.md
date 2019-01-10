@@ -8,6 +8,6 @@ Alternatively, if you are using `@babel/preset-env`, you can configure it like t
 
 ```js
 ["@babel/preset-env", {
-  "exclude": "typeof-symbol"
+  "exclude": "transform-typeof-symbol"
 }]
 ```
